@@ -1,0 +1,15 @@
+-) Go to Powershell Terminal and navigate to Backend folder using
+cd Backend
+-) To make virtual environment run command
+python -m venv venv 
+-) a folder named venv should be made
+-) then cd venv
+-) then allow following permission if error occurs
+Set-ExecutionPolicy Unrestricted -Scope Process
+-) then write this command
+Scripts\activate
+-) then navigate back to Backend folder 
+cd ..
+-) run requirements file with the command below
+pip install -r requirements.txt
+-) to deactivate virtaul environment write "deactivate"

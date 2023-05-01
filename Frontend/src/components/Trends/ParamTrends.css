@@ -1,0 +1,45 @@
+.dropdownstyling:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdownstyling {
+  background: #595260 !important;
+  color: white;
+  margin-left: 5px;
+  width: 250px;
+  height: 40px;
+  outline: #595260 !important;
+}
+
+.dropdown-toggle::after {
+  display: inline-block;
+  margin-left: 1em !important;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+
+.form-check {
+  display: inline-block !important;
+  min-height: 2.5rem !important;
+  padding-left: 3em !important;
+  margin-bottom: 0.125rem !important;
+}
+
+.parameterswidth {
+  width: 760px !important;
+}
+
+button:focus:not(:focus-visible) {
+  outline: 0 !important;
+}
+
+.css-xbgela-MuiDataGrid-root .MuiDataGrid-columnHeader:focus-within,
+.css-xbgela-MuiDataGrid-root .MuiDataGrid-cell:focus-within {
+  outline: none !important;
+  outline-width: 0px !important;
+  outline-offset: -0px !important;
+}

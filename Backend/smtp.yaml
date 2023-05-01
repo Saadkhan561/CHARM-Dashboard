@@ -1,0 +1,7 @@
+# smtp
+mail_server: 'smtp.gmail.com'
+mail_port: 465
+mail_use_ssl: true
+mail_username: 'obdcharm.fyp@gmail.com'
+# generated pw
+mail_password: 'qyqnlejhomxvlsdt'

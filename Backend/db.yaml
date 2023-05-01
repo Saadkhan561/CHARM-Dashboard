@@ -1,0 +1,9 @@
+# mysql_host: 'localhost'
+# mysql_user: 'root'
+# mysql_password: '12345'
+# mysql_db: 'obd_charm'
+
+mysql_host: 'charm.nedncl.com'
+mysql_user: 'fyp_students'
+mysql_password: 'CHARM1234fyP@@1'
+mysql_db: 'obd2'

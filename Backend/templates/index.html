@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block body %}
+    <h1>Welcome to OBD CHARM Dashboard</h1>
+    <div>
+        <a href="/signup"><button>Sign Up</button></a>
+    </div><br />
+    <div>
+        <a href="/users"><button>Read Users</button></a>
+    </div><br />
+    <form action="/uid" method="POST">
+        <p>User ID <input type = "number" name = "uid" /></p>
+        <p><input type = "submit" value = "Read User With ID" /></p>
+    </form>
+{% endblock %}

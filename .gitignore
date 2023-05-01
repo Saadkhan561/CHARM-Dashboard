@@ -1,0 +1,6 @@
+/Backend/venv
+/Backend/__pycache__/
+
+# dependencies
+/Frontend/node_modules
+/Frontend/package-lock.json
